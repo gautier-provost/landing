@@ -1,0 +1,64 @@
+/* Importing Google fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Roboto:300,400,500,700,900&display=swap);
+
+
+/* Importing component files */
+
+@import url(components/container.css);
+@import url(components/button.css);
+@import url(components/avatar.css);
+@import url(components/banner.css);
+@import url(components/card-profile.css);
+@import url(components/card.css);
+@import url(components/card2.css);
+
+
+/* General style rules for fonts and colors */
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	background-color: #161724;
+	margin: 0px;	
+}
+
+h1, h2, h3 {
+	font-family: 'Roboto', sans-serif;
+	font-weight: bold;
+}
+
+h1 {
+	color: #F1C51C;
+	font-size: 70px;
+	font-weight: 600;
+}
+
+h2 {
+	color: #F1C51C
+}
+
+h3 {
+	color: white;
+	font-size: 38px;
+	font-weight: 300
+}
+
+
+}
+
+
+a {
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	color: #F1C51C;
+	font-weight: 600;
+	font-size: 35px;
+	transition: color 0.3s ease;
+}
+
+a:hover {
+	color: white;
+	background-color: #0F0E18;
+}
+
